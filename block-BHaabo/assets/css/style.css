@@ -1,0 +1,160 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  line-height: 1.5;
+}
+
+.header {
+  background-color: #222946;
+  padding: 20px 0px;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container {
+  width: 100%;
+  padding: 0 250px;
+}
+.nav a {
+  font-size: 24px;
+  text-decoration: none;
+  color: white;
+  color: white;
+}
+
+.footer {
+  background-color: #222946;
+  font-size: 34px;
+  color: white;
+  padding: 32px 0;
+}
+.fa {
+  font-size: 34px;
+  color: white;
+  margin-left: 20px;
+}
+.icon img {
+  width: 34px;
+  height: 34px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.sidebar {
+  flex-direction: column;
+  height: 70vh;
+  background-color: red;
+}
+.main-content {
+  flex-wrap: wrap;
+  background-color: blue;
+  height: 1100px;
+  font-size: 20px;
+  width: 70%;
+  background: #f2f8fd;
+  margin: 40px;
+  border-radius: 10px;
+  padding: 40px;
+}
+
+.read {
+  background-color: #30ba67;
+  font-size: 24px;
+  padding: 12px 50px;
+  margin-top: 40px;
+  border-radius: 10px;
+  color: white;
+  border: none;
+}
+.read a {
+  text-decoration: none;
+  color: white;
+}
+
+h1 {
+  font-size: 44px;
+  font-weight: bold;
+  line-height: 2;
+}
+.navbar {
+  flex-direction: column;
+  align-items: flex-start;
+}
+.btn {
+  width: 300px;
+  margin-top: 170px;
+  padding: 14px 40px;
+  border: none;
+  border-radius: 6px;
+  text-align: left;
+}
+
+.btn-wrap {
+  font-size: 24px;
+  color: #222946;
+}
+
+span {
+  margin: 10px;
+}
+
+.thumbnail-image {
+  width: 100%;
+}
+
+.wraper {
+  margin-top: 20px;
+}
+
+.aside .nav a.nav-link {
+  display: flex;
+  align-items: center;
+  margin: 40px 60px;
+}
+
+.aside .nav a.nav-link.active {
+  border: 3px solid #ff7b29;
+  margin: 20px 15px;
+  padding: 20px 40px;
+  border-radius: 8px;
+}
+.aside {
+  height: 1100px;
+  width: 25%;
+  background-color: #a3caea;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+span {
+  margin-left: 10px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #222946;
+}
+.logout_button {
+  display: flex;
+  align-items: center;
+  background-color: #f2f8fd;
+  padding: 20px;
+  font-size: 22px;
+  font-weight: bold;
+  margin: 20px 25px;
+  border: none;
+  border-radius: 8px;
+}
+
+p {
+  font-size: 25px;
+}
+.profile-name {
+  font-size: 25px;
+  margin-left: 40px;
+  color: #fff;
+}
